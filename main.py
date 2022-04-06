@@ -22,5 +22,3 @@ def even(num):
     else:
         print("Odd number")
 
-
-even(num)
