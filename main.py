@@ -1,24 +1,18 @@
-def fact(n) -> object:
-    if n == 1:
-        return n
-    else:
-        return n * fact(n - 1)
 
 
-n = int(input("Enter the number: "))
+even = []
+for i in range (0,20):
+	if i%2 == 0:
+		even = even + [i]
+print("Print Even numbers from 0 to 20: ",even)
+print(len(even))
+print(even[0::2])
 
-if n == 1:
-    print("Number is equal to 1")
-elif n <= 0:
-    n = print("Number is less than or equal to 0")
-else:
-    print("Factorial of ", n, "is", fact(n))
+print("Deleting the list now:")
+del even[:]
+print(even)
+
+string1 = 'Sanjay'[:: -1]
 
 
-def even(num):
-    print("Enter the number: ")
-    if num % 2 == 0:
-        print("Even number")
-    else:
-        print("Odd number")
-
+print(string1)
