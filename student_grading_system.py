@@ -1,4 +1,4 @@
-# Python DA - 1
+# Python console application
 # Author - Sanjay Kumar B
 # Last updated date - 21/10/21
 
